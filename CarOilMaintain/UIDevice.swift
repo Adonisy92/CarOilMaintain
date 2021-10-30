@@ -6,30 +6,8 @@ public extension UIDevice
     
     var modelname: String
     {
-        /*
-        #if (arch(i386) || arch(x86_64)) && os(iOS)
-            let DEVICE_IS_SIMULATOR = true
-        #else
-            let DEVICE_IS_SIMULATOR = false
-        #endif
-        */
-        
         var machineString : String = ""
         
-        /*
-        if DEVICE_IS_SIMULATOR == true
-        {
-            
-            if let dir = ProcessInfo().environment["SIMULATOR_MODEL_IDENTIFIER"]
-            {
-                machineString = dir
-            }
- 
-            
-            
-        }
-        else
-        {*/
             var systemInfo = utsname()
             uname(&systemInfo)
             let machineMirror = Mirror(reflecting: systemInfo.machine)

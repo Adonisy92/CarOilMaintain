@@ -18,8 +18,6 @@ class myBaseTableViewController: UITableViewController {
         
         self.view.backgroundColor = UIColor(red: 153.0/255.0, green: 102.0/255.0, blue: 51.0/255.0, alpha: 1.0)
         
-        
-        
     }
     
     
@@ -46,8 +44,6 @@ class myBaseTableViewController: UITableViewController {
             cell.backgroundView = imageView
             cell.selectedBackgroundView = selimageView
             
-            
-            
         }
             
         else if indexPath.row == 3
@@ -67,10 +63,6 @@ class myBaseTableViewController: UITableViewController {
             
             cell.backgroundView = imageView
             cell.selectedBackgroundView = selimageView
-            
-            
-            
-            
             
         }
         else

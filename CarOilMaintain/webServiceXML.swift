@@ -115,18 +115,6 @@ class myWebService:NSObject, XMLParserDelegate
     
     func update_oil_user(car_info:Array<String>)
     {
-        //輸入車子的陣列
-        //["54", "脆瓜", "M-Benz", "S-Class", "1974-09-10", "藍", "", "0", "0", "", "0", "0"]
-
-        //car_name:car_info[1]
-        //default_car:car_info[0]
-        //car_Company:car_info[2]
-        //car_Style:car_info[3]
-        //car_type:car_info[11]
-        //car_cc:car_info[8]
-        //car_subtype:car_info[9]
-        //carid,carNickName,carCompany,carStyle,carBirthday,carColor,carimg,uploadOilDeviceID,carcc,subcarStyle,oilplace,cartype from car where carid = \(defaultcarid)"
-
 
         guard let url = URL(string: "http://adonisy94.westus.cloudapp.azure.com/oilinfo/Products.asmx?op=update_Device") else {return}
         var request = URLRequest(url: url)

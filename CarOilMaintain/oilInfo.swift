@@ -39,9 +39,9 @@ class OilInfo: NSObject
         var src:String = ""
         var dst:String = ""
         
-            src = Bundle.main.path(forResource: "OilInfo", ofType: "sqlite")!
-            dst = NSHomeDirectory()+"/Documents/OilInfo.sqlite"
-            sql = "select oilPrice,filloil,payType,oilType from FillOil where carid = \(defaultcarid) order by fillDate desc limit 1"
+        src = Bundle.main.path(forResource: "OilInfo", ofType: "sqlite")!
+        dst = NSHomeDirectory()+"/Documents/OilInfo.sqlite"
+        sql = "select oilPrice,filloil,payType,oilType from FillOil where carid = \(defaultcarid) order by fillDate desc limit 1"
         
         
         if !fm.fileExists(atPath: dst) {
@@ -193,7 +193,7 @@ class OilInfo: NSObject
             let tmp_lastkm = CFloat(self.lastKm)
             let tmplastkm = String(format: "%.1f", tmp_lastkm!)
 
-                lastKm = tmplastkm
+            lastKm = tmplastkm
             
         }
         
@@ -261,21 +261,16 @@ class OilInfo: NSObject
         }
         
         
-        
-        
         statement = nil
         
-
         sqlite3_exec(db, (sql as NSString).utf8String, nil, nil, nil)
 
-        
         sqlite3_finalize(statement)
         sqlite3_close(db)
 
         //修改總里程
         update_lastkm(defaultcarid: defaultcarid, walkkm: workKM_i)
 
-        
     }
 
     
@@ -319,18 +314,12 @@ class OilInfo: NSObject
             
         }
         
-        
-        
-        
         statement = nil
-        
         
         sqlite3_exec(db, (sql as NSString).utf8String, nil, nil, nil)
         
-        
         sqlite3_finalize(statement)
         sqlite3_close(db)
-        
         
     }
 
@@ -379,9 +368,7 @@ class OilInfo: NSObject
         
         statement = nil
         
-        
         sqlite3_exec(db, (sql as NSString).utf8String, nil, nil, nil)
-        
         
         sqlite3_finalize(statement)
         sqlite3_close(db)
@@ -419,27 +406,27 @@ class OilInfo: NSObject
         var src:String = ""
         var dst:String = ""
         
-            src = Bundle.main.path(forResource: "OilInfo", ofType: "sqlite")!
-            dst = NSHomeDirectory()+"/Documents/OilInfo.sqlite"
+        src = Bundle.main.path(forResource: "OilInfo", ofType: "sqlite")!
+        dst = NSHomeDirectory()+"/Documents/OilInfo.sqlite"
             
-            switch type
-            {
-                case "0":
-                sql = "select fillOilID,fillDate,oilPrice,FillMoney,FillLitre,workKM,filloil,payType,oilType from filloil where carid = \(defaultcarid) order by fillDate desc limit 15"
+        switch type
+        {
+            case "0":
+            sql = "select fillOilID,fillDate,oilPrice,FillMoney,FillLitre,workKM,filloil,payType,oilType from filloil where carid = \(defaultcarid) order by fillDate desc limit 15"
 
-                case "1":
+            case "1":
             
-                    sql = "select fillOilID,fillDate,oilPrice,FillMoney,FillLitre,workKM,filloil,payType,oilType from(select *,julianday(date('now')) as nowdate ,julianday(fillDate) as filloildate from FillOil ) as a where a.nowdate - a.filloildate < 180 and carid = \(defaultcarid) order by fillDate desc"
+                sql = "select fillOilID,fillDate,oilPrice,FillMoney,FillLitre,workKM,filloil,payType,oilType from(select *,julianday(date('now')) as nowdate ,julianday(fillDate) as filloildate from FillOil ) as a where a.nowdate - a.filloildate < 180 and carid = \(defaultcarid) order by fillDate desc"
 
                 
-                case "2":
+            case "2":
                 
-                    sql = "select fillOilID,fillDate,oilPrice,FillMoney,FillLitre,workKM,filloil,payType,oilType from(select *,julianday(date('now')) as nowdate ,julianday(fillDate) as filloildate from FillOil ) as a where a.nowdate - a.filloildate between 180 and 1095 and carid = \(defaultcarid) order by fillDate desc"
+                sql = "select fillOilID,fillDate,oilPrice,FillMoney,FillLitre,workKM,filloil,payType,oilType from(select *,julianday(date('now')) as nowdate ,julianday(fillDate) as filloildate from FillOil ) as a where a.nowdate - a.filloildate between 180 and 1095 and carid = \(defaultcarid) order by fillDate desc"
 
                 
-                case "3":
+            case "3":
                 
-                    sql = "select fillOilID,fillDate,oilPrice,FillMoney,FillLitre,workKM,filloil,payType,oilType from(select *,julianday(date('now')) as nowdate ,julianday(fillDate) as filloildate from FillOil ) as a where a.nowdate - a.filloildate >=1095 and carid = \(defaultcarid) order by fillDate desc"
+                sql = "select fillOilID,fillDate,oilPrice,FillMoney,FillLitre,workKM,filloil,payType,oilType from(select *,julianday(date('now')) as nowdate ,julianday(fillDate) as filloildate from FillOil ) as a where a.nowdate - a.filloildate >=1095 and carid = \(defaultcarid) order by fillDate desc"
 
                 
             default:
