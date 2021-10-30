@@ -1,0 +1,1018 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0431AB921F1E5DD4001305DD /* me.png in Resources */ = {isa = PBXBuildFile; fileRef = 0431AB911F1E5DD4001305DD /* me.png */; };
+		0439FF621F1677F200343171 /* detailMaintainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439FF611F1677F200343171 /* detailMaintainTableViewController.swift */; };
+		0439FF641F167BB400343171 /* maintain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439FF631F167BB400343171 /* maintain.swift */; };
+		0439FF681F1687C300343171 /* detailHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439FF671F1687C300343171 /* detailHeaderViewController.swift */; };
+		045099AB1F1D15A00032B7D1 /* maintain.png in Resources */ = {isa = PBXBuildFile; fileRef = 045099AA1F1D15A00032B7D1 /* maintain.png */; };
+		045C08D61F1FB449002EC155 /* chartoilYearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C08D51F1FB449002EC155 /* chartoilYearViewController.swift */; };
+		048D2B8C1F0F41760083812F /* oilInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D2B8B1F0F41760083812F /* oilInfo.swift */; };
+		048E95A41F1B8C20007F41C1 /* defaultcar.png in Resources */ = {isa = PBXBuildFile; fileRef = 048E95A31F1B8C20007F41C1 /* defaultcar.png */; };
+		048E95A61F1BB671007F41C1 /* myBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E95A51F1BB671007F41C1 /* myBaseTableViewController.swift */; };
+		048E95A81F1BBA42007F41C1 /* showCarVisibleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E95A71F1BBA42007F41C1 /* showCarVisibleTableViewController.swift */; };
+		048E95AA1F1BBBFC007F41C1 /* customVisibleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E95A91F1BBBFC007F41C1 /* customVisibleTableViewCell.swift */; };
+		048EBF081F17C8F500C05666 /* insertDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048EBF071F17C8F500C05666 /* insertDetailTableViewController.swift */; };
+		7C0338C91F1DBD8F00C7AB16 /* noimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C0338C81F1DBD8F00C7AB16 /* noimage.png */; };
+		7C0933FD1F1B5C3B00E6DD77 /* backup.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C0933FC1F1B5C3B00E6DD77 /* backup.png */; };
+		7C0933FF1F1B5C4900E6DD77 /* restore.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C0933FE1F1B5C4900E6DD77 /* restore.png */; };
+		7C0DABCB1F024A6100221729 /* defaultcarSettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0DABCA1F024A6100221729 /* defaultcarSettingTableViewController.swift */; };
+		7C17831E1F071DCB00736496 /* uploadoilinfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C17831D1F071DCB00736496 /* uploadoilinfo.png */; };
+		7C1783241F0721D300736496 /* km1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C1783231F0721D300736496 /* km1.png */; };
+		7C1783281F07230800736496 /* carheader.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C1783271F07230800736496 /* carheader.png */; };
+		7C17832E1F0745BF00736496 /* historyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C17832D1F0745BF00736496 /* historyViewController.swift */; };
+		7C1BB894271183D700434B9D /* delimage_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1BB893271183D700434B9D /* delimage_view.swift */; };
+		7C2898251F44552E003701D5 /* CloudDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2898241F44552E003701D5 /* CloudDataManager.swift */; };
+		7C2EC5AF2724916100FBFB84 /* upgrade_db.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2EC5AE2724916100FBFB84 /* upgrade_db.swift */; };
+		7C330E3C1F2CE4CE00175221 /* maintain3535.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C330E3B1F2CE4CE00175221 /* maintain3535.png */; };
+		7C338C841F18B69A00C3F9EB /* historyicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C338C831F18B69A00C3F9EB /* historyicon.png */; };
+		7C3FA5FA1F09623E00EF98A2 /* SwiftyDropbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3FA5F91F09623E00EF98A2 /* SwiftyDropbox.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		7C48AC1C1F21937A00DCFEA1 /* productManagerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C48AC1B1F21937A00DCFEA1 /* productManagerTableViewController.swift */; };
+		7C4CE3D71F1F80DE009522D6 /* oilByYearTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4CE3D61F1F80DE009522D6 /* oilByYearTableViewController.swift */; };
+		7C50373D1F08969600755936 /* AdvenceSettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C50373C1F08969600755936 /* AdvenceSettingTableViewController.swift */; };
+		7C5037441F08AD1D00755936 /* oil.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C5037421F08AD1D00755936 /* oil.png */; };
+		7C5037451F08AD1D00755936 /* Oilselect.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C5037431F08AD1D00755936 /* Oilselect.png */; };
+		7C5037471F08B0FB00755936 /* carstyle.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C5037461F08B0FB00755936 /* carstyle.png */; };
+		7C5037491F08B18200755936 /* oiltype.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C5037481F08B18200755936 /* oiltype.png */; };
+		7C50374B1F08B22800755936 /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C50374A1F08B22800755936 /* cloud.png */; };
+		7C50374F1F08B77200755936 /* calalogicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C50374E1F08B77200755936 /* calalogicon.png */; };
+		7C5037511F08BCE400755936 /* repaireicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C5037501F08BCE400755936 /* repaireicon.png */; };
+		7C67B3241F1F9B53006286B9 /* headeroilByYearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C67B3231F1F9B53006286B9 /* headeroilByYearViewController.swift */; };
+		7C67B3261F1F9C24006286B9 /* statsisticyear.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C67B3251F1F9C24006286B9 /* statsisticyear.png */; };
+		7C67FA911EF7CFE200235B1E /* carSetting.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 7C67FA8E1EF7CFE200235B1E /* carSetting.sqlite */; };
+		7C67FA921EF7CFE200235B1E /* OilInfo.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 7C67FA8F1EF7CFE200235B1E /* OilInfo.sqlite */; };
+		7C67FA931EF7CFE200235B1E /* OilInfoCar1.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 7C67FA901EF7CFE200235B1E /* OilInfoCar1.sqlite */; };
+		7C6AA95E1F0602C8001A56FC /* choosePicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6AA95D1F0602C8001A56FC /* choosePicViewController.swift */; };
+		7C6CE9C51EF8C7200018B64E /* db_reading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CE9C41EF8C7200018B64E /* db_reading.swift */; };
+		7C72B1A81F1486E7009D88FC /* StatisticMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C72B1A71F1486E7009D88FC /* StatisticMainViewController.swift */; };
+		7C72B1AA1F148874009D88FC /* StatsCustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C72B1A91F148874009D88FC /* StatsCustomTabBarController.swift */; };
+		7C72B1AC1F148BC6009D88FC /* StatOilTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C72B1AB1F148BC6009D88FC /* StatOilTableViewController.swift */; };
+		7C72B1B01F14B4B3009D88FC /* HeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C72B1AF1F14B4B3009D88FC /* HeaderViewController.swift */; };
+		7C783A611EFB8F5B004A5AF1 /* bottomRow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C783A591EFB8F5B004A5AF1 /* bottomRow.png */; };
+		7C783A621EFB8F5B004A5AF1 /* bottomRowSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C783A5A1EFB8F5B004A5AF1 /* bottomRowSelected.png */; };
+		7C783A631EFB8F5B004A5AF1 /* middleRow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C783A5B1EFB8F5B004A5AF1 /* middleRow.png */; };
+		7C783A641EFB8F5B004A5AF1 /* middleRowSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C783A5C1EFB8F5B004A5AF1 /* middleRowSelected.png */; };
+		7C783A651EFB8F5B004A5AF1 /* topAndBottomRow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C783A5D1EFB8F5B004A5AF1 /* topAndBottomRow.png */; };
+		7C783A661EFB8F5B004A5AF1 /* topAndBottomRowSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C783A5E1EFB8F5B004A5AF1 /* topAndBottomRowSelected.png */; };
+		7C783A671EFB8F5B004A5AF1 /* topRow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C783A5F1EFB8F5B004A5AF1 /* topRow.png */; };
+		7C783A681EFB8F5B004A5AF1 /* topRowSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C783A601EFB8F5B004A5AF1 /* topRowSelected.png */; };
+		7C8557301F25DE49007694E5 /* main_popviewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C85572F1F25DE49007694E5 /* main_popviewTableViewController.swift */; };
+		7C8EFDEE1F0776CB00BF70D2 /* backup1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C8EFDED1F0776CB00BF70D2 /* backup1.jpg */; };
+		7C901FD51F6796E100B28F82 /* oilMainHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C901FD41F6796E100B28F82 /* oilMainHeader.swift */; };
+		7C9DAC881F0B3F8300370863 /* DropBoxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9DAC871F0B3F8300370863 /* DropBoxTableViewController.swift */; };
+		7C9DF1281F13375100DC1003 /* oilDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9DF1271F13375100DC1003 /* oilDetailTableViewController.swift */; };
+		7CA5193B1F1F22480017778C /* ShowChartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA5193A1F1F22480017778C /* ShowChartTableViewController.swift */; };
+		7CA5600F1F04E98C000F3788 /* carImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA5600E1F04E98C000F3788 /* carImageViewController.swift */; };
+		7CA5DF7B27228CFD00988AD4 /* compareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA5DF7A27228CFD00988AD4 /* compareViewController.swift */; };
+		7CA710341F1DCD2300494C32 /* stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA710331F1DCD2300494C32 /* stats.swift */; };
+		7CA710361F1DD62200494C32 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA710351F1DD62200494C32 /* UIDevice.swift */; };
+		7CACF4C81F134D7D00E3E3C6 /* oilDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CACF4C71F134D7D00E3E3C6 /* oilDetailTableViewCell.swift */; };
+		7CB181111EFBB8F500FD701B /* carinfo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CB181101EFBB8F500FD701B /* carinfo2.png */; };
+		7CBCE7EE1F1380F30049C5E3 /* mileage.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CBCE7ED1F1380F30049C5E3 /* mileage.png */; };
+		7CBCE7F21F1385970049C5E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CBCE7F11F1385970049C5E3 /* Images.xcassets */; };
+		7CBF7B781F2485A800411252 /* maintaininfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CBF7B771F2485A800411252 /* maintaininfo.png */; };
+		7CBF7B7A1F2486E300411252 /* aboutme.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CBF7B791F2486E300411252 /* aboutme.png */; };
+		7CBF7B7C1F2486F400411252 /* AdvenceSetting.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CBF7B7B1F2486F400411252 /* AdvenceSetting.png */; };
+		7CBF7B7E1F24870500411252 /* historyedition.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CBF7B7D1F24870500411252 /* historyedition.png */; };
+		7CBF7B801F24880200411252 /* updateoil.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CBF7B7F1F24880200411252 /* updateoil.png */; };
+		7CBF7B831F248A2600411252 /* products.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CBF7B821F248A2600411252 /* products.png */; };
+		7CBF7B851F248B8200411252 /* howtobackup.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CBF7B841F248B8200411252 /* howtobackup.png */; };
+		7CBF7B871F24938400411252 /* announceicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CBF7B861F24938400411252 /* announceicon.png */; };
+		7CBF7B8C1F2496BD00411252 /* cell2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CBF7B8B1F2496BD00411252 /* cell2.png */; };
+		7CBF7B8E1F2497E300411252 /* cell1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CBF7B8D1F2497E300411252 /* cell1.png */; };
+		7CBF7B901F24989800411252 /* oilblack.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CBF7B8F1F24989800411252 /* oilblack.png */; };
+		7CC230561F25A552002379B6 /* detail_popviewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC230551F25A552002379B6 /* detail_popviewTableViewController.swift */; };
+		7CCA5E181EEE98DD00EA77FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA5E171EEE98DD00EA77FF /* AppDelegate.swift */; };
+		7CCA5E241EEE98DD00EA77FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CCA5E221EEE98DD00EA77FF /* LaunchScreen.storyboard */; };
+		7CCBDA7D1EF7CBDD00039CC0 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCBDA7C1EF7CBDD00039CC0 /* libsqlite3.tbd */; };
+		7CCBDA7F1EF7CBE900039CC0 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCBDA7E1EF7CBE900039CC0 /* Charts.framework */; };
+		7CCBDA811EF7CBF000039CC0 /* AEXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCBDA801EF7CBF000039CC0 /* AEXML.framework */; };
+		7CD0E1121F0E05FD006E2179 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CD0E1101F0E05FD006E2179 /* Main.storyboard */; };
+		7CD0E1141F0E0B7C006E2179 /* mainTainMainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD0E1131F0E0B7C006E2179 /* mainTainMainTableViewController.swift */; };
+		7CD0E1161F0E0FFA006E2179 /* 主程式_icon70x70_油耗01.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD0E1151F0E0FFA006E2179 /* 主程式_icon70x70_油耗01.png */; };
+		7CD0E1181F0E111B006E2179 /* 主程式_icon70x70_保養01.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD0E1171F0E111B006E2179 /* 主程式_icon70x70_保養01.png */; };
+		7CDB7AA727243CA3007592AA /* webServiceXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDB7AA627243CA3007592AA /* webServiceXML.swift */; };
+		7CE0D9091F2ADDE500BE02E0 /* clean.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CE0D9081F2ADDE500BE02E0 /* clean.png */; };
+		7CE0D90B1F2ADE0300BE02E0 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CE0D90A1F2ADE0300BE02E0 /* delete.png */; };
+		7CE0D90D1F2ADE1A00BE02E0 /* lastoil.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CE0D90C1F2ADE1A00BE02E0 /* lastoil.png */; };
+		7CE0D9101F2ADECA00BE02E0 /* detail_oilTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE0D90F1F2ADECA00BE02E0 /* detail_oilTableViewController.swift */; };
+		7CE0D9121F2B055C00BE02E0 /* header_oilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE0D9111F2B055C00BE02E0 /* header_oilViewController.swift */; };
+		7CE14BE31EFB7E42002E2ECE /* myButton8030down.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CE14BE11EFB7E42002E2ECE /* myButton8030down.png */; };
+		7CE14BE41EFB7E42002E2ECE /* myButton8030up.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CE14BE21EFB7E42002E2ECE /* myButton8030up.png */; };
+		7CE681D71F42C8FA00273D92 /* iCloudTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE681D61F42C8FA00273D92 /* iCloudTableViewController.swift */; };
+		7CEF8C221F0E03F400B2367F /* oilMainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEF8C211F0E03F400B2367F /* oilMainTableViewController.swift */; };
+		7CF005861F15E48D00DF9D70 /* input_main_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF005851F15E48D00DF9D70 /* input_main_TableViewController.swift */; };
+		7CF005881F1632FB00DF9D70 /* cellmainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF005871F1632FB00DF9D70 /* cellmainTableViewCell.swift */; };
+		7CF610B81EF7BD5F0084310B /* CarMainData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF610B71EF7BD5F0084310B /* CarMainData.swift */; };
+		7CF610BC1EF7BE780084310B /* SettingMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF610BB1EF7BE780084310B /* SettingMain.swift */; };
+		7CF6349D1F0CD410005539EB /* categoryManagerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6349C1F0CD410005539EB /* categoryManagerTableViewController.swift */; };
+		7CF868781F2085AC00FD765F /* register.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF868771F2085AC00FD765F /* register.png */; };
+		7CFA2C041EFBA77F00DAFC85 /* ShowCarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA2C031EFBA77F00DAFC85 /* ShowCarTableViewController.swift */; };
+		7CFDA76B1EFCE004003AEDD8 /* myBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFDA76A1EFCE004003AEDD8 /* myBaseViewController.swift */; };
+		90A0B66D4E3DF071F3633944 /* Pods_CarOilMaintain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 059B39C672C2FAE2AC373923 /* Pods_CarOilMaintain.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0431AB911F1E5DD4001305DD /* me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = me.png; path = images/me.png; sourceTree = "<group>"; };
+		0439FF611F1677F200343171 /* detailMaintainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailMaintainTableViewController.swift; sourceTree = "<group>"; };
+		0439FF631F167BB400343171 /* maintain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = maintain.swift; sourceTree = "<group>"; };
+		0439FF671F1687C300343171 /* detailHeaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailHeaderViewController.swift; sourceTree = "<group>"; };
+		045099AA1F1D15A00032B7D1 /* maintain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = maintain.png; path = images/maintain.png; sourceTree = "<group>"; };
+		045C08D51F1FB449002EC155 /* chartoilYearViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chartoilYearViewController.swift; sourceTree = "<group>"; };
+		048D2B8B1F0F41760083812F /* oilInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = oilInfo.swift; sourceTree = "<group>"; };
+		048E95A31F1B8C20007F41C1 /* defaultcar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = defaultcar.png; path = images/defaultcar.png; sourceTree = "<group>"; };
+		048E95A51F1BB671007F41C1 /* myBaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myBaseTableViewController.swift; sourceTree = "<group>"; };
+		048E95A71F1BBA42007F41C1 /* showCarVisibleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showCarVisibleTableViewController.swift; sourceTree = "<group>"; };
+		048E95A91F1BBBFC007F41C1 /* customVisibleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customVisibleTableViewCell.swift; sourceTree = "<group>"; };
+		048EBF071F17C8F500C05666 /* insertDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = insertDetailTableViewController.swift; sourceTree = "<group>"; };
+		059B39C672C2FAE2AC373923 /* Pods_CarOilMaintain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarOilMaintain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A12C2860C8CB9435B7EC3FF /* Pods-CarOilMaintain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarOilMaintain.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarOilMaintain/Pods-CarOilMaintain.debug.xcconfig"; sourceTree = "<group>"; };
+		7C0338C81F1DBD8F00C7AB16 /* noimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noimage.png; path = images/noimage.png; sourceTree = "<group>"; };
+		7C0933FC1F1B5C3B00E6DD77 /* backup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backup.png; path = images/backup.png; sourceTree = "<group>"; };
+		7C0933FE1F1B5C4900E6DD77 /* restore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = restore.png; path = images/restore.png; sourceTree = "<group>"; };
+		7C0DABCA1F024A6100221729 /* defaultcarSettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = defaultcarSettingTableViewController.swift; sourceTree = "<group>"; };
+		7C17831D1F071DCB00736496 /* uploadoilinfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = uploadoilinfo.png; path = images/uploadoilinfo.png; sourceTree = "<group>"; };
+		7C1783231F0721D300736496 /* km1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = km1.png; path = images/km1.png; sourceTree = "<group>"; };
+		7C1783271F07230800736496 /* carheader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = carheader.png; path = images/carheader.png; sourceTree = "<group>"; };
+		7C17832D1F0745BF00736496 /* historyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = historyViewController.swift; sourceTree = "<group>"; };
+		7C1BB893271183D700434B9D /* delimage_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = delimage_view.swift; sourceTree = "<group>"; };
+		7C2898241F44552E003701D5 /* CloudDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudDataManager.swift; sourceTree = "<group>"; };
+		7C2EC5AE2724916100FBFB84 /* upgrade_db.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = upgrade_db.swift; sourceTree = "<group>"; };
+		7C330E3B1F2CE4CE00175221 /* maintain3535.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = maintain3535.png; path = images/programuse/maintain3535.png; sourceTree = "<group>"; };
+		7C338C831F18B69A00C3F9EB /* historyicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = historyicon.png; path = images/historyicon.png; sourceTree = "<group>"; };
+		7C3FA5F91F09623E00EF98A2 /* SwiftyDropbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyDropbox.framework; path = "../../../../Library/Developer/Xcode/DerivedData/CarOilMaintain-gjpkinrvaiftvogbqdewdsrvbzzq/Build/Products/Debug-iphonesimulator/SwiftyDropbox/SwiftyDropbox.framework"; sourceTree = "<group>"; };
+		7C48AC1B1F21937A00DCFEA1 /* productManagerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = productManagerTableViewController.swift; sourceTree = "<group>"; };
+		7C4CE3D61F1F80DE009522D6 /* oilByYearTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = oilByYearTableViewController.swift; sourceTree = "<group>"; };
+		7C50373C1F08969600755936 /* AdvenceSettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvenceSettingTableViewController.swift; sourceTree = "<group>"; };
+		7C5037421F08AD1D00755936 /* oil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = oil.png; path = images/advenceicon/oil.png; sourceTree = "<group>"; };
+		7C5037431F08AD1D00755936 /* Oilselect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Oilselect.png; path = images/advenceicon/Oilselect.png; sourceTree = "<group>"; };
+		7C5037461F08B0FB00755936 /* carstyle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = carstyle.png; path = images/advenceicon/carstyle.png; sourceTree = "<group>"; };
+		7C5037481F08B18200755936 /* oiltype.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = oiltype.png; path = images/advenceicon/oiltype.png; sourceTree = "<group>"; };
+		7C50374A1F08B22800755936 /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cloud.png; path = images/advenceicon/cloud.png; sourceTree = "<group>"; };
+		7C50374E1F08B77200755936 /* calalogicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calalogicon.png; path = images/advenceicon/calalogicon.png; sourceTree = "<group>"; };
+		7C5037501F08BCE400755936 /* repaireicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = repaireicon.png; path = images/advenceicon/repaireicon.png; sourceTree = "<group>"; };
+		7C67B3231F1F9B53006286B9 /* headeroilByYearViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = headeroilByYearViewController.swift; sourceTree = "<group>"; };
+		7C67B3251F1F9C24006286B9 /* statsisticyear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = statsisticyear.png; path = images/statsisticyear.png; sourceTree = "<group>"; };
+		7C67FA8E1EF7CFE200235B1E /* carSetting.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = carSetting.sqlite; path = CarOilMaintain/carSetting.sqlite; sourceTree = "<group>"; };
+		7C67FA8F1EF7CFE200235B1E /* OilInfo.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = OilInfo.sqlite; path = CarOilMaintain/OilInfo.sqlite; sourceTree = "<group>"; };
+		7C67FA901EF7CFE200235B1E /* OilInfoCar1.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = OilInfoCar1.sqlite; path = CarOilMaintain/OilInfoCar1.sqlite; sourceTree = "<group>"; };
+		7C6AA95D1F0602C8001A56FC /* choosePicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = choosePicViewController.swift; sourceTree = "<group>"; };
+		7C6CE9C41EF8C7200018B64E /* db_reading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = db_reading.swift; sourceTree = "<group>"; };
+		7C72B1A71F1486E7009D88FC /* StatisticMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticMainViewController.swift; sourceTree = "<group>"; };
+		7C72B1A91F148874009D88FC /* StatsCustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsCustomTabBarController.swift; sourceTree = "<group>"; };
+		7C72B1AB1F148BC6009D88FC /* StatOilTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatOilTableViewController.swift; sourceTree = "<group>"; };
+		7C72B1AF1F14B4B3009D88FC /* HeaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderViewController.swift; sourceTree = "<group>"; };
+		7C783A591EFB8F5B004A5AF1 /* bottomRow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottomRow.png; path = images/uitableimage/bottomRow.png; sourceTree = "<group>"; };
+		7C783A5A1EFB8F5B004A5AF1 /* bottomRowSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottomRowSelected.png; path = images/uitableimage/bottomRowSelected.png; sourceTree = "<group>"; };
+		7C783A5B1EFB8F5B004A5AF1 /* middleRow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = middleRow.png; path = images/uitableimage/middleRow.png; sourceTree = "<group>"; };
+		7C783A5C1EFB8F5B004A5AF1 /* middleRowSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = middleRowSelected.png; path = images/uitableimage/middleRowSelected.png; sourceTree = "<group>"; };
+		7C783A5D1EFB8F5B004A5AF1 /* topAndBottomRow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = topAndBottomRow.png; path = images/uitableimage/topAndBottomRow.png; sourceTree = "<group>"; };
+		7C783A5E1EFB8F5B004A5AF1 /* topAndBottomRowSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = topAndBottomRowSelected.png; path = images/uitableimage/topAndBottomRowSelected.png; sourceTree = "<group>"; };
+		7C783A5F1EFB8F5B004A5AF1 /* topRow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = topRow.png; path = images/uitableimage/topRow.png; sourceTree = "<group>"; };
+		7C783A601EFB8F5B004A5AF1 /* topRowSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = topRowSelected.png; path = images/uitableimage/topRowSelected.png; sourceTree = "<group>"; };
+		7C85572F1F25DE49007694E5 /* main_popviewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main_popviewTableViewController.swift; sourceTree = "<group>"; };
+		7C8EFDED1F0776CB00BF70D2 /* backup1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = backup1.jpg; path = images/howtobackup/backup1.jpg; sourceTree = "<group>"; };
+		7C901FD41F6796E100B28F82 /* oilMainHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = oilMainHeader.swift; sourceTree = "<group>"; };
+		7C9DAC871F0B3F8300370863 /* DropBoxTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropBoxTableViewController.swift; sourceTree = "<group>"; };
+		7C9DF1271F13375100DC1003 /* oilDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = oilDetailTableViewController.swift; sourceTree = "<group>"; };
+		7CA5193A1F1F22480017778C /* ShowChartTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowChartTableViewController.swift; sourceTree = "<group>"; };
+		7CA5600E1F04E98C000F3788 /* carImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = carImageViewController.swift; sourceTree = "<group>"; };
+		7CA5DF7A27228CFD00988AD4 /* compareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = compareViewController.swift; sourceTree = "<group>"; };
+		7CA710331F1DCD2300494C32 /* stats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stats.swift; sourceTree = "<group>"; };
+		7CA710351F1DD62200494C32 /* UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		7CACF4C71F134D7D00E3E3C6 /* oilDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = oilDetailTableViewCell.swift; sourceTree = "<group>"; };
+		7CB181101EFBB8F500FD701B /* carinfo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = carinfo2.png; path = images/carinfo2.png; sourceTree = "<group>"; };
+		7CBCE7ED1F1380F30049C5E3 /* mileage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mileage.png; path = images/mileage.png; sourceTree = "<group>"; };
+		7CBCE7F11F1385970049C5E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7CBF7B771F2485A800411252 /* maintaininfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = maintaininfo.png; path = images/setting/maintaininfo.png; sourceTree = "<group>"; };
+		7CBF7B791F2486E300411252 /* aboutme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aboutme.png; path = images/setting/aboutme.png; sourceTree = "<group>"; };
+		7CBF7B7B1F2486F400411252 /* AdvenceSetting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AdvenceSetting.png; path = images/setting/AdvenceSetting.png; sourceTree = "<group>"; };
+		7CBF7B7D1F24870500411252 /* historyedition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = historyedition.png; path = images/setting/historyedition.png; sourceTree = "<group>"; };
+		7CBF7B7F1F24880200411252 /* updateoil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = updateoil.png; path = images/setting/updateoil.png; sourceTree = "<group>"; };
+		7CBF7B821F248A2600411252 /* products.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = products.png; path = images/advenceicon/products.png; sourceTree = "<group>"; };
+		7CBF7B841F248B8200411252 /* howtobackup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = howtobackup.png; path = images/setting/howtobackup.png; sourceTree = "<group>"; };
+		7CBF7B861F24938400411252 /* announceicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = announceicon.png; path = images/setting/announceicon.png; sourceTree = "<group>"; };
+		7CBF7B8B1F2496BD00411252 /* cell2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell2.png; path = images/statistics/cell2.png; sourceTree = "<group>"; };
+		7CBF7B8D1F2497E300411252 /* cell1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell1.png; path = images/statistics/cell1.png; sourceTree = "<group>"; };
+		7CBF7B8F1F24989800411252 /* oilblack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = oilblack.png; path = images/advenceicon/oilblack.png; sourceTree = "<group>"; };
+		7CC230551F25A552002379B6 /* detail_popviewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detail_popviewTableViewController.swift; sourceTree = "<group>"; };
+		7CCA5E141EEE98DD00EA77FF /* AutoMaintain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoMaintain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCA5E171EEE98DD00EA77FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CCA5E231EEE98DD00EA77FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CCA5E251EEE98DD00EA77FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CCBDA7C1EF7CBDD00039CC0 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		7CCBDA7E1EF7CBE900039CC0 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = "../../../../Library/Developer/Xcode/DerivedData/CarOilMaintain-gjpkinrvaiftvogbqdewdsrvbzzq/Build/Products/Debug-iphonesimulator/Charts/Charts.framework"; sourceTree = "<group>"; };
+		7CCBDA801EF7CBF000039CC0 /* AEXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AEXML.framework; path = "../../../../Library/Developer/Xcode/DerivedData/CarOilMaintain-gjpkinrvaiftvogbqdewdsrvbzzq/Build/Products/Debug-iphonesimulator/AEXML/AEXML.framework"; sourceTree = "<group>"; };
+		7CCD99061EF8082F00E6749C /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		7CD0E1111F0E05FD006E2179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CD0E1131F0E0B7C006E2179 /* mainTainMainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainTainMainTableViewController.swift; sourceTree = "<group>"; };
+		7CD0E1151F0E0FFA006E2179 /* 主程式_icon70x70_油耗01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "主程式_icon70x70_油耗01.png"; path = "images/主程式_icon70x70_油耗01.png"; sourceTree = "<group>"; };
+		7CD0E1171F0E111B006E2179 /* 主程式_icon70x70_保養01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "主程式_icon70x70_保養01.png"; path = "images/主程式_icon70x70_保養01.png"; sourceTree = "<group>"; };
+		7CDB7AA627243CA3007592AA /* webServiceXML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = webServiceXML.swift; sourceTree = "<group>"; };
+		7CE0D9081F2ADDE500BE02E0 /* clean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clean.png; path = images/programuse/clean.png; sourceTree = "<group>"; };
+		7CE0D90A1F2ADE0300BE02E0 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = delete.png; path = images/programuse/delete.png; sourceTree = "<group>"; };
+		7CE0D90C1F2ADE1A00BE02E0 /* lastoil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lastoil.png; path = images/programuse/lastoil.png; sourceTree = "<group>"; };
+		7CE0D90F1F2ADECA00BE02E0 /* detail_oilTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detail_oilTableViewController.swift; sourceTree = "<group>"; };
+		7CE0D9111F2B055C00BE02E0 /* header_oilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = header_oilViewController.swift; sourceTree = "<group>"; };
+		7CE14BE11EFB7E42002E2ECE /* myButton8030down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myButton8030down.png; path = images/myButton8030down.png; sourceTree = "<group>"; };
+		7CE14BE21EFB7E42002E2ECE /* myButton8030up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myButton8030up.png; path = images/myButton8030up.png; sourceTree = "<group>"; };
+		7CE681D51F42C64600273D92 /* CarOilMaintain.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CarOilMaintain.entitlements; sourceTree = "<group>"; };
+		7CE681D61F42C8FA00273D92 /* iCloudTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iCloudTableViewController.swift; sourceTree = "<group>"; };
+		7CEF8C211F0E03F400B2367F /* oilMainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = oilMainTableViewController.swift; sourceTree = "<group>"; };
+		7CF005851F15E48D00DF9D70 /* input_main_TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = input_main_TableViewController.swift; sourceTree = "<group>"; };
+		7CF005871F1632FB00DF9D70 /* cellmainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cellmainTableViewCell.swift; sourceTree = "<group>"; };
+		7CF610B71EF7BD5F0084310B /* CarMainData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarMainData.swift; sourceTree = "<group>"; };
+		7CF610BB1EF7BE780084310B /* SettingMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingMain.swift; sourceTree = "<group>"; };
+		7CF6349C1F0CD410005539EB /* categoryManagerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = categoryManagerTableViewController.swift; sourceTree = "<group>"; };
+		7CF868771F2085AC00FD765F /* register.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = register.png; path = images/register.png; sourceTree = "<group>"; };
+		7CFA2C031EFBA77F00DAFC85 /* ShowCarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowCarTableViewController.swift; sourceTree = "<group>"; };
+		7CFDA76A1EFCE004003AEDD8 /* myBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myBaseViewController.swift; sourceTree = "<group>"; };
+		9A22BB1E60F3374672D319AF /* Pods-CarOilMaintain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarOilMaintain.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarOilMaintain/Pods-CarOilMaintain.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CCA5E111EEE98DD00EA77FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C3FA5FA1F09623E00EF98A2 /* SwiftyDropbox.framework in Frameworks */,
+				7CCBDA811EF7CBF000039CC0 /* AEXML.framework in Frameworks */,
+				7CCBDA7F1EF7CBE900039CC0 /* Charts.framework in Frameworks */,
+				7CCBDA7D1EF7CBDD00039CC0 /* libsqlite3.tbd in Frameworks */,
+				90A0B66D4E3DF071F3633944 /* Pods_CarOilMaintain.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		289060EDAD4E0EEFC7C48069 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A12C2860C8CB9435B7EC3FF /* Pods-CarOilMaintain.debug.xcconfig */,
+				9A22BB1E60F3374672D319AF /* Pods-CarOilMaintain.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3B8F66C62363A39BA44D1DD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C3FA5F91F09623E00EF98A2 /* SwiftyDropbox.framework */,
+				7CCBDA801EF7CBF000039CC0 /* AEXML.framework */,
+				7CCBDA7E1EF7CBE900039CC0 /* Charts.framework */,
+				7CCBDA7C1EF7CBDD00039CC0 /* libsqlite3.tbd */,
+				059B39C672C2FAE2AC373923 /* Pods_CarOilMaintain.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C6CE9C31EF8C6A90018B64E /* function_class */ = {
+			isa = PBXGroup;
+			children = (
+				7C2EC5AE2724916100FBFB84 /* upgrade_db.swift */,
+				7CDB7AA627243CA3007592AA /* webServiceXML.swift */,
+				7CCD99061EF8082F00E6749C /* BridgingHeader.h */,
+				7C6CE9C41EF8C7200018B64E /* db_reading.swift */,
+				0439FF631F167BB400343171 /* maintain.swift */,
+				7CA710331F1DCD2300494C32 /* stats.swift */,
+				7C2898241F44552E003701D5 /* CloudDataManager.swift */,
+			);
+			name = function_class;
+			sourceTree = "<group>";
+		};
+		7C6E170E1EFB6FB40022B353 /* custom_class */ = {
+			isa = PBXGroup;
+			children = (
+				7CFDA76A1EFCE004003AEDD8 /* myBaseViewController.swift */,
+				048D2B8B1F0F41760083812F /* oilInfo.swift */,
+				048E95A51F1BB671007F41C1 /* myBaseTableViewController.swift */,
+				7CA710351F1DD62200494C32 /* UIDevice.swift */,
+			);
+			name = custom_class;
+			sourceTree = "<group>";
+		};
+		7C943C861EF7945500EE60A9 /* 油耗 */ = {
+			isa = PBXGroup;
+			children = (
+				7CE0D90E1F2ADEAB00BE02E0 /* popover */,
+				7CEF8C211F0E03F400B2367F /* oilMainTableViewController.swift */,
+				7C9DF1271F13375100DC1003 /* oilDetailTableViewController.swift */,
+				7CACF4C71F134D7D00E3E3C6 /* oilDetailTableViewCell.swift */,
+				7C901FD41F6796E100B28F82 /* oilMainHeader.swift */,
+			);
+			name = "油耗";
+			sourceTree = "<group>";
+		};
+		7C943C8B1EF795CA00EE60A9 /* 保修記錄 */ = {
+			isa = PBXGroup;
+			children = (
+				7CD0E1131F0E0B7C006E2179 /* mainTainMainTableViewController.swift */,
+				7C72B1AF1F14B4B3009D88FC /* HeaderViewController.swift */,
+				7CF005851F15E48D00DF9D70 /* input_main_TableViewController.swift */,
+				7CF005871F1632FB00DF9D70 /* cellmainTableViewCell.swift */,
+				0439FF611F1677F200343171 /* detailMaintainTableViewController.swift */,
+				0439FF671F1687C300343171 /* detailHeaderViewController.swift */,
+				048EBF071F17C8F500C05666 /* insertDetailTableViewController.swift */,
+				7CC230551F25A552002379B6 /* detail_popviewTableViewController.swift */,
+				7C85572F1F25DE49007694E5 /* main_popviewTableViewController.swift */,
+				7C1BB893271183D700434B9D /* delimage_view.swift */,
+			);
+			name = "保修記錄";
+			sourceTree = "<group>";
+		};
+		7C943C8C1EF795EC00EE60A9 /* 車籍資料 */ = {
+			isa = PBXGroup;
+			children = (
+				7CF610B71EF7BD5F0084310B /* CarMainData.swift */,
+				7CFA2C031EFBA77F00DAFC85 /* ShowCarTableViewController.swift */,
+				7CA5600E1F04E98C000F3788 /* carImageViewController.swift */,
+				7C6AA95D1F0602C8001A56FC /* choosePicViewController.swift */,
+			);
+			name = "車籍資料";
+			sourceTree = "<group>";
+		};
+		7C943C8D1EF7960200EE60A9 /* 統計 */ = {
+			isa = PBXGroup;
+			children = (
+				7CA5DF7A27228CFD00988AD4 /* compareViewController.swift */,
+				7C72B1A71F1486E7009D88FC /* StatisticMainViewController.swift */,
+				7C72B1A91F148874009D88FC /* StatsCustomTabBarController.swift */,
+				7C72B1AB1F148BC6009D88FC /* StatOilTableViewController.swift */,
+				7CA5193A1F1F22480017778C /* ShowChartTableViewController.swift */,
+				7C4CE3D61F1F80DE009522D6 /* oilByYearTableViewController.swift */,
+				7C67B3231F1F9B53006286B9 /* headeroilByYearViewController.swift */,
+				045C08D51F1FB449002EC155 /* chartoilYearViewController.swift */,
+			);
+			name = "統計";
+			sourceTree = "<group>";
+		};
+		7C943C8E1EF7960F00EE60A9 /* 設定 */ = {
+			isa = PBXGroup;
+			children = (
+				7CF610BB1EF7BE780084310B /* SettingMain.swift */,
+				7C0DABCA1F024A6100221729 /* defaultcarSettingTableViewController.swift */,
+				7C17832D1F0745BF00736496 /* historyViewController.swift */,
+				7C50373C1F08969600755936 /* AdvenceSettingTableViewController.swift */,
+				7C9DAC871F0B3F8300370863 /* DropBoxTableViewController.swift */,
+				7CF6349C1F0CD410005539EB /* categoryManagerTableViewController.swift */,
+				048E95A71F1BBA42007F41C1 /* showCarVisibleTableViewController.swift */,
+				048E95A91F1BBBFC007F41C1 /* customVisibleTableViewCell.swift */,
+				7C48AC1B1F21937A00DCFEA1 /* productManagerTableViewController.swift */,
+				7CE681D61F42C8FA00273D92 /* iCloudTableViewController.swift */,
+			);
+			name = "設定";
+			sourceTree = "<group>";
+		};
+		7CBF7B6F1F243B8A00411252 /* programimg */ = {
+			isa = PBXGroup;
+			children = (
+				7CE14BE01EFB7E29002E2ECE /* images */,
+			);
+			name = programimg;
+			sourceTree = "<group>";
+		};
+		7CBF7B741F24857000411252 /* setting */ = {
+			isa = PBXGroup;
+			children = (
+				048E95A31F1B8C20007F41C1 /* defaultcar.png */,
+				0431AB911F1E5DD4001305DD /* me.png */,
+				7C338C831F18B69A00C3F9EB /* historyicon.png */,
+				7CBF7B861F24938400411252 /* announceicon.png */,
+				7CBF7B841F248B8200411252 /* howtobackup.png */,
+				7CBF7B7F1F24880200411252 /* updateoil.png */,
+				7CBF7B7D1F24870500411252 /* historyedition.png */,
+				7CBF7B7B1F2486F400411252 /* AdvenceSetting.png */,
+				7CBF7B791F2486E300411252 /* aboutme.png */,
+				7CBF7B771F2485A800411252 /* maintaininfo.png */,
+			);
+			name = setting;
+			sourceTree = "<group>";
+		};
+		7CBF7B811F248A1000411252 /* advancesetting */ = {
+			isa = PBXGroup;
+			children = (
+				7CE0D90A1F2ADE0300BE02E0 /* delete.png */,
+				7CBF7B8F1F24989800411252 /* oilblack.png */,
+				7CF868771F2085AC00FD765F /* register.png */,
+				7C0933FE1F1B5C4900E6DD77 /* restore.png */,
+				7C0933FC1F1B5C3B00E6DD77 /* backup.png */,
+				7CBF7B821F248A2600411252 /* products.png */,
+				7CBCE7ED1F1380F30049C5E3 /* mileage.png */,
+				7C5037501F08BCE400755936 /* repaireicon.png */,
+				7C50374E1F08B77200755936 /* calalogicon.png */,
+				7C50374A1F08B22800755936 /* cloud.png */,
+				7C5037481F08B18200755936 /* oiltype.png */,
+				7C5037461F08B0FB00755936 /* carstyle.png */,
+				7C5037421F08AD1D00755936 /* oil.png */,
+				7C5037431F08AD1D00755936 /* Oilselect.png */,
+			);
+			name = advancesetting;
+			sourceTree = "<group>";
+		};
+		7CBF7B881F2493FD00411252 /* mainprogram */ = {
+			isa = PBXGroup;
+			children = (
+				7C330E3B1F2CE4CE00175221 /* maintain3535.png */,
+				7CE0D90C1F2ADE1A00BE02E0 /* lastoil.png */,
+				7CE0D9081F2ADDE500BE02E0 /* clean.png */,
+				7C0338C81F1DBD8F00C7AB16 /* noimage.png */,
+				7C67B3251F1F9C24006286B9 /* statsisticyear.png */,
+				045099AA1F1D15A00032B7D1 /* maintain.png */,
+				7CD0E1171F0E111B006E2179 /* 主程式_icon70x70_保養01.png */,
+				7CD0E1151F0E0FFA006E2179 /* 主程式_icon70x70_油耗01.png */,
+				7C1783271F07230800736496 /* carheader.png */,
+				7CB181101EFBB8F500FD701B /* carinfo2.png */,
+				7C17831D1F071DCB00736496 /* uploadoilinfo.png */,
+			);
+			name = mainprogram;
+			sourceTree = "<group>";
+		};
+		7CBF7B891F24956C00411252 /* tableviewimg */ = {
+			isa = PBXGroup;
+			children = (
+				7C783A591EFB8F5B004A5AF1 /* bottomRow.png */,
+				7C783A5A1EFB8F5B004A5AF1 /* bottomRowSelected.png */,
+				7C783A5B1EFB8F5B004A5AF1 /* middleRow.png */,
+				7C783A5C1EFB8F5B004A5AF1 /* middleRowSelected.png */,
+				7C783A5D1EFB8F5B004A5AF1 /* topAndBottomRow.png */,
+				7C783A5E1EFB8F5B004A5AF1 /* topAndBottomRowSelected.png */,
+				7C783A601EFB8F5B004A5AF1 /* topRowSelected.png */,
+				7CE14BE11EFB7E42002E2ECE /* myButton8030down.png */,
+				7CE14BE21EFB7E42002E2ECE /* myButton8030up.png */,
+				7C783A5F1EFB8F5B004A5AF1 /* topRow.png */,
+			);
+			name = tableviewimg;
+			sourceTree = "<group>";
+		};
+		7CBF7B8A1F2496AA00411252 /* statistics */ = {
+			isa = PBXGroup;
+			children = (
+				7CBF7B8D1F2497E300411252 /* cell1.png */,
+				7CBF7B8B1F2496BD00411252 /* cell2.png */,
+				7C1783231F0721D300736496 /* km1.png */,
+			);
+			name = statistics;
+			sourceTree = "<group>";
+		};
+		7CCA5E0B1EEE98DD00EA77FF = {
+			isa = PBXGroup;
+			children = (
+				7C67FA8E1EF7CFE200235B1E /* carSetting.sqlite */,
+				7C67FA8F1EF7CFE200235B1E /* OilInfo.sqlite */,
+				7C67FA901EF7CFE200235B1E /* OilInfoCar1.sqlite */,
+				7CCA5E161EEE98DD00EA77FF /* CarOilMaintain */,
+				7CCA5E151EEE98DD00EA77FF /* Products */,
+				289060EDAD4E0EEFC7C48069 /* Pods */,
+				3B8F66C62363A39BA44D1DD0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7CCA5E151EEE98DD00EA77FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CCA5E141EEE98DD00EA77FF /* AutoMaintain.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CCA5E161EEE98DD00EA77FF /* CarOilMaintain */ = {
+			isa = PBXGroup;
+			children = (
+				7CE681D51F42C64600273D92 /* CarOilMaintain.entitlements */,
+				7CD0E1101F0E05FD006E2179 /* Main.storyboard */,
+				7CBF7B6F1F243B8A00411252 /* programimg */,
+				7C6E170E1EFB6FB40022B353 /* custom_class */,
+				7C6CE9C31EF8C6A90018B64E /* function_class */,
+				7C943C8E1EF7960F00EE60A9 /* 設定 */,
+				7C943C8D1EF7960200EE60A9 /* 統計 */,
+				7C943C8C1EF795EC00EE60A9 /* 車籍資料 */,
+				7C943C8B1EF795CA00EE60A9 /* 保修記錄 */,
+				7C943C861EF7945500EE60A9 /* 油耗 */,
+				7CCA5E171EEE98DD00EA77FF /* AppDelegate.swift */,
+				7CCA5E221EEE98DD00EA77FF /* LaunchScreen.storyboard */,
+				7CCA5E251EEE98DD00EA77FF /* Info.plist */,
+				7CBCE7F11F1385970049C5E3 /* Images.xcassets */,
+			);
+			path = CarOilMaintain;
+			sourceTree = "<group>";
+		};
+		7CE0D90E1F2ADEAB00BE02E0 /* popover */ = {
+			isa = PBXGroup;
+			children = (
+				7CE0D90F1F2ADECA00BE02E0 /* detail_oilTableViewController.swift */,
+				7CE0D9111F2B055C00BE02E0 /* header_oilViewController.swift */,
+			);
+			name = popover;
+			sourceTree = "<group>";
+		};
+		7CE14BE01EFB7E29002E2ECE /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7CBF7B8A1F2496AA00411252 /* statistics */,
+				7CBF7B891F24956C00411252 /* tableviewimg */,
+				7CBF7B881F2493FD00411252 /* mainprogram */,
+				7CBF7B811F248A1000411252 /* advancesetting */,
+				7CBF7B741F24857000411252 /* setting */,
+				7C8EFDED1F0776CB00BF70D2 /* backup1.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CCA5E131EEE98DD00EA77FF /* AutoMaintain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCA5E281EEE98DD00EA77FF /* Build configuration list for PBXNativeTarget "AutoMaintain" */;
+			buildPhases = (
+				7C7C44A09D4DCDCFA08F7BA8 /* [CP] Check Pods Manifest.lock */,
+				7CCA5E101EEE98DD00EA77FF /* Sources */,
+				7CCA5E111EEE98DD00EA77FF /* Frameworks */,
+				7CCA5E121EEE98DD00EA77FF /* Resources */,
+				AC75A68AF297F5B5FB378E18 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoMaintain;
+			productName = CarOilMaintain;
+			productReference = 7CCA5E141EEE98DD00EA77FF /* AutoMaintain.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CCA5E0C1EEE98DD00EA77FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1310;
+				ORGANIZATIONNAME = "YOUNG SEN-MING";
+				TargetAttributes = {
+					7CCA5E131EEE98DD00EA77FF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3NMZWMARQC;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 7CCA5E0F1EEE98DD00EA77FF /* Build configuration list for PBXProject "AutoMaintain" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CCA5E0B1EEE98DD00EA77FF;
+			productRefGroup = 7CCA5E151EEE98DD00EA77FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CCA5E131EEE98DD00EA77FF /* AutoMaintain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CCA5E121EEE98DD00EA77FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CBCE7F21F1385970049C5E3 /* Images.xcassets in Resources */,
+				7CD0E1181F0E111B006E2179 /* 主程式_icon70x70_保養01.png in Resources */,
+				7CBF7B871F24938400411252 /* announceicon.png in Resources */,
+				7C1783241F0721D300736496 /* km1.png in Resources */,
+				7C67FA921EF7CFE200235B1E /* OilInfo.sqlite in Resources */,
+				7CE0D90D1F2ADE1A00BE02E0 /* lastoil.png in Resources */,
+				7CBF7B7A1F2486E300411252 /* aboutme.png in Resources */,
+				7C783A681EFB8F5B004A5AF1 /* topRowSelected.png in Resources */,
+				7CD0E1121F0E05FD006E2179 /* Main.storyboard in Resources */,
+				7C5037451F08AD1D00755936 /* Oilselect.png in Resources */,
+				7CE14BE31EFB7E42002E2ECE /* myButton8030down.png in Resources */,
+				7C1783281F07230800736496 /* carheader.png in Resources */,
+				7C783A621EFB8F5B004A5AF1 /* bottomRowSelected.png in Resources */,
+				7C50374F1F08B77200755936 /* calalogicon.png in Resources */,
+				7CBF7B7C1F2486F400411252 /* AdvenceSetting.png in Resources */,
+				7C0338C91F1DBD8F00C7AB16 /* noimage.png in Resources */,
+				7C67B3261F1F9C24006286B9 /* statsisticyear.png in Resources */,
+				7C5037511F08BCE400755936 /* repaireicon.png in Resources */,
+				7C783A611EFB8F5B004A5AF1 /* bottomRow.png in Resources */,
+				7C338C841F18B69A00C3F9EB /* historyicon.png in Resources */,
+				7C67FA931EF7CFE200235B1E /* OilInfoCar1.sqlite in Resources */,
+				7C0933FF1F1B5C4900E6DD77 /* restore.png in Resources */,
+				7C330E3C1F2CE4CE00175221 /* maintain3535.png in Resources */,
+				7CE14BE41EFB7E42002E2ECE /* myButton8030up.png in Resources */,
+				0431AB921F1E5DD4001305DD /* me.png in Resources */,
+				7CE0D9091F2ADDE500BE02E0 /* clean.png in Resources */,
+				7C0933FD1F1B5C3B00E6DD77 /* backup.png in Resources */,
+				7CBF7B8E1F2497E300411252 /* cell1.png in Resources */,
+				7CD0E1161F0E0FFA006E2179 /* 主程式_icon70x70_油耗01.png in Resources */,
+				7C8EFDEE1F0776CB00BF70D2 /* backup1.jpg in Resources */,
+				7CBF7B901F24989800411252 /* oilblack.png in Resources */,
+				7C5037491F08B18200755936 /* oiltype.png in Resources */,
+				7CBF7B8C1F2496BD00411252 /* cell2.png in Resources */,
+				7C783A671EFB8F5B004A5AF1 /* topRow.png in Resources */,
+				7C17831E1F071DCB00736496 /* uploadoilinfo.png in Resources */,
+				7CBF7B7E1F24870500411252 /* historyedition.png in Resources */,
+				7CBF7B801F24880200411252 /* updateoil.png in Resources */,
+				7CBF7B781F2485A800411252 /* maintaininfo.png in Resources */,
+				7CE0D90B1F2ADE0300BE02E0 /* delete.png in Resources */,
+				7C783A631EFB8F5B004A5AF1 /* middleRow.png in Resources */,
+				7CCA5E241EEE98DD00EA77FF /* LaunchScreen.storyboard in Resources */,
+				7C783A661EFB8F5B004A5AF1 /* topAndBottomRowSelected.png in Resources */,
+				7C783A651EFB8F5B004A5AF1 /* topAndBottomRow.png in Resources */,
+				7C50374B1F08B22800755936 /* cloud.png in Resources */,
+				048E95A41F1B8C20007F41C1 /* defaultcar.png in Resources */,
+				7C783A641EFB8F5B004A5AF1 /* middleRowSelected.png in Resources */,
+				7CBCE7EE1F1380F30049C5E3 /* mileage.png in Resources */,
+				7CBF7B831F248A2600411252 /* products.png in Resources */,
+				7C5037471F08B0FB00755936 /* carstyle.png in Resources */,
+				7CBF7B851F248B8200411252 /* howtobackup.png in Resources */,
+				7C67FA911EF7CFE200235B1E /* carSetting.sqlite in Resources */,
+				7CB181111EFBB8F500FD701B /* carinfo2.png in Resources */,
+				045099AB1F1D15A00032B7D1 /* maintain.png in Resources */,
+				7CF868781F2085AC00FD765F /* register.png in Resources */,
+				7C5037441F08AD1D00755936 /* oil.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C7C44A09D4DCDCFA08F7BA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarOilMaintain-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC75A68AF297F5B5FB378E18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarOilMaintain/Pods-CarOilMaintain-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarOilMaintain/Pods-CarOilMaintain-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarOilMaintain/Pods-CarOilMaintain-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CCA5E101EEE98DD00EA77FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048E95AA1F1BBBFC007F41C1 /* customVisibleTableViewCell.swift in Sources */,
+				7CA5DF7B27228CFD00988AD4 /* compareViewController.swift in Sources */,
+				7C6AA95E1F0602C8001A56FC /* choosePicViewController.swift in Sources */,
+				048D2B8C1F0F41760083812F /* oilInfo.swift in Sources */,
+				7C48AC1C1F21937A00DCFEA1 /* productManagerTableViewController.swift in Sources */,
+				7C72B1AC1F148BC6009D88FC /* StatOilTableViewController.swift in Sources */,
+				0439FF621F1677F200343171 /* detailMaintainTableViewController.swift in Sources */,
+				7C901FD51F6796E100B28F82 /* oilMainHeader.swift in Sources */,
+				7CFDA76B1EFCE004003AEDD8 /* myBaseViewController.swift in Sources */,
+				7C1BB894271183D700434B9D /* delimage_view.swift in Sources */,
+				7CC230561F25A552002379B6 /* detail_popviewTableViewController.swift in Sources */,
+				7C72B1AA1F148874009D88FC /* StatsCustomTabBarController.swift in Sources */,
+				048E95A61F1BB671007F41C1 /* myBaseTableViewController.swift in Sources */,
+				7C6CE9C51EF8C7200018B64E /* db_reading.swift in Sources */,
+				7CF005861F15E48D00DF9D70 /* input_main_TableViewController.swift in Sources */,
+				7C2898251F44552E003701D5 /* CloudDataManager.swift in Sources */,
+				7C72B1B01F14B4B3009D88FC /* HeaderViewController.swift in Sources */,
+				7CFA2C041EFBA77F00DAFC85 /* ShowCarTableViewController.swift in Sources */,
+				7C50373D1F08969600755936 /* AdvenceSettingTableViewController.swift in Sources */,
+				7CA5193B1F1F22480017778C /* ShowChartTableViewController.swift in Sources */,
+				048E95A81F1BBA42007F41C1 /* showCarVisibleTableViewController.swift in Sources */,
+				7CEF8C221F0E03F400B2367F /* oilMainTableViewController.swift in Sources */,
+				7CE0D9121F2B055C00BE02E0 /* header_oilViewController.swift in Sources */,
+				045C08D61F1FB449002EC155 /* chartoilYearViewController.swift in Sources */,
+				7CF6349D1F0CD410005539EB /* categoryManagerTableViewController.swift in Sources */,
+				0439FF641F167BB400343171 /* maintain.swift in Sources */,
+				7CD0E1141F0E0B7C006E2179 /* mainTainMainTableViewController.swift in Sources */,
+				7CA710361F1DD62200494C32 /* UIDevice.swift in Sources */,
+				7CF610B81EF7BD5F0084310B /* CarMainData.swift in Sources */,
+				7CF005881F1632FB00DF9D70 /* cellmainTableViewCell.swift in Sources */,
+				7CE0D9101F2ADECA00BE02E0 /* detail_oilTableViewController.swift in Sources */,
+				7CA5600F1F04E98C000F3788 /* carImageViewController.swift in Sources */,
+				7CACF4C81F134D7D00E3E3C6 /* oilDetailTableViewCell.swift in Sources */,
+				0439FF681F1687C300343171 /* detailHeaderViewController.swift in Sources */,
+				7CA710341F1DCD2300494C32 /* stats.swift in Sources */,
+				048EBF081F17C8F500C05666 /* insertDetailTableViewController.swift in Sources */,
+				7C9DAC881F0B3F8300370863 /* DropBoxTableViewController.swift in Sources */,
+				7CE681D71F42C8FA00273D92 /* iCloudTableViewController.swift in Sources */,
+				7C9DF1281F13375100DC1003 /* oilDetailTableViewController.swift in Sources */,
+				7C4CE3D71F1F80DE009522D6 /* oilByYearTableViewController.swift in Sources */,
+				7C67B3241F1F9B53006286B9 /* headeroilByYearViewController.swift in Sources */,
+				7C0DABCB1F024A6100221729 /* defaultcarSettingTableViewController.swift in Sources */,
+				7C72B1A81F1486E7009D88FC /* StatisticMainViewController.swift in Sources */,
+				7CF610BC1EF7BE780084310B /* SettingMain.swift in Sources */,
+				7C8557301F25DE49007694E5 /* main_popviewTableViewController.swift in Sources */,
+				7CCA5E181EEE98DD00EA77FF /* AppDelegate.swift in Sources */,
+				7C2EC5AF2724916100FBFB84 /* upgrade_db.swift in Sources */,
+				7CDB7AA727243CA3007592AA /* webServiceXML.swift in Sources */,
+				7C17832E1F0745BF00736496 /* historyViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7CCA5E221EEE98DD00EA77FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CCA5E231EEE98DD00EA77FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7CD0E1101F0E05FD006E2179 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CD0E1111F0E05FD006E2179 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CCA5E261EEE98DD00EA77FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3NMZWMARQC;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = CarOilMaintain/BridgingHeader.h;
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = CarOilMaintain/BridgingHeader.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_WORKSPACE = YES;
+				VALID_ARCHS = "arm64 arm64e x86_64";
+			};
+			name = Debug;
+		};
+		7CCA5E271EEE98DD00EA77FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: SEN-MING YOUNG (3NMZWMARQC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: SEN-MING YOUNG (3NMZWMARQC)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3NMZWMARQC;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = CarOilMaintain/BridgingHeader.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+				VALIDATE_WORKSPACE = YES;
+				VALID_ARCHS = "arm64 arm64e x86_64";
+			};
+			name = Release;
+		};
+		7CCA5E291EEE98DD00EA77FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A12C2860C8CB9435B7EC3FF /* Pods-CarOilMaintain.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = CarOilMaintain/CarOilMaintain.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3NMZWMARQC;
+				INFOPLIST_FILE = CarOilMaintain/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.2.6;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AEXML\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"Charts\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"SwiftyDropbox\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"WebKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.talkce.carauto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = CarOilMaintain/BridgingHeader.h;
+				SWIFT_VERSION = 5.0;
+				VALID_ARCHS = "arm64 arm64e x86_64";
+			};
+			name = Debug;
+		};
+		7CCA5E2A1EEE98DD00EA77FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A22BB1E60F3374672D319AF /* Pods-CarOilMaintain.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = CarOilMaintain/CarOilMaintain.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3NMZWMARQC;
+				INFOPLIST_FILE = CarOilMaintain/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.2.6;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.talkce.carauto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = CarOilMaintain/BridgingHeader.h;
+				SWIFT_VERSION = 5.0;
+				VALID_ARCHS = "arm64 arm64e x86_64";
+				"VALID_ARCHS[arch=*]" = arm64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CCA5E0F1EEE98DD00EA77FF /* Build configuration list for PBXProject "AutoMaintain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCA5E261EEE98DD00EA77FF /* Debug */,
+				7CCA5E271EEE98DD00EA77FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CCA5E281EEE98DD00EA77FF /* Build configuration list for PBXNativeTarget "AutoMaintain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCA5E291EEE98DD00EA77FF /* Debug */,
+				7CCA5E2A1EEE98DD00EA77FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CCA5E0C1EEE98DD00EA77FF /* Project object */;
+}

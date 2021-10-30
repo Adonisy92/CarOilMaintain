@@ -1,0 +1,30 @@
+PODS:
+  - AEXML (4.6.1)
+  - Alamofire (5.4.4)
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - SwiftyDropbox (8.2.0):
+    - Alamofire (~> 5.4.3)
+
+DEPENDENCIES:
+  - AEXML
+  - Charts
+  - SwiftyDropbox
+
+SPEC REPOS:
+  trunk:
+    - AEXML
+    - Alamofire
+    - Charts
+    - SwiftyDropbox
+
+SPEC CHECKSUMS:
+  AEXML: 1e255ecc6597212f97a7454a69ebd3ede64ac1cf
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  SwiftyDropbox: 4dcdee926905ab6f20829c671f38bcf3247b8108
+
+PODFILE CHECKSUM: db8184b175c771ce735d1760a944b76549cdd259
+
+COCOAPODS: 1.11.2
